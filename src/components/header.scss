@@ -1,14 +1,27 @@
 $background-color: #000000;
 $foreground-color: #E6FDFF;
 
-#mixin header-divs{
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@mixin header-divs{
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 
 .header{
+	
+	@include header-divs;
+	
 	background: #000000;
 	margin: 0;
+	
+	color: $foreground-color;
+	
+	font-family: "Jersey 20", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
 	
 	&-div-logo{
 		
@@ -19,4 +32,5 @@ $foreground-color: #E6FDFF;
 		}
 			
 	}
+
 }
