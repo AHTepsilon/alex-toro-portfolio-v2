@@ -6,6 +6,17 @@ $foreground-color: #E6FDFF;
 	flex-direction: row;
 }
 
-header{
+.header{
 	background: #000000;
+	margin: 0;
+	
+	&-div-logo{
+		
+		&-img{
+				
+			margin: 30px;
+				
+		}
+			
+	}
 }
