@@ -1,0 +1,11 @@
+$background-color: #000000;
+$foreground-color: #E6FDFF;
+
+#mixin header-divs{
+	display: flex;
+	flex-direction: row;
+}
+
+header{
+	background: #000000;
+}
