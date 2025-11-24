@@ -29,5 +29,16 @@ $foreground-color: #E6FDFF;
 			width: 939px;
 			margin: 60px;
 		}
+		
+		&-txt{
+			color: $foreground-color;
+			text-align: end;
+			margin: 60px;
+			
+			font-family: "Jersey 20", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 38px;
+		}
 	}
 }
