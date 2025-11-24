@@ -105,7 +105,53 @@ $foreground-color: #E6FDFF;
 			font-style: normal;
 			font-size: 48px;
 			
+			margin-top: 1em;
+			
 			text-decoration-color: $foreground-color;
 		}
 	}
+}
+
+.footer-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	padding-top: 8em;
+	
+	background: $background-color;
+	
+	&-divider{
+		width: 1092px;		
+	}
+	
+	&-copyright{
+		color: $foreground-color;
+			
+		font-family: "Glory", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		font-size: 28px;
+		text-align: center;
+	}
+	
+	&-logo{
+		width: 170px;
+	}
+	
+	&-socials{		
+		margin-top: 3em;
+		margin-bottom: 2em;
+		
+		&-navlink{
+			margin: 0.5em;	
+			transition: transform .2s;
+			
+			&:hover{
+				cursor: pointer;
+				transform:scale(110%);
+			}
+		}
+	}
+
 }
