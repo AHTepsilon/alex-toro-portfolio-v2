@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 $background-color: #000000;
 $foreground-color: #E6FDFF;
-
-@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @mixin header-divs{
 	display: flex;
@@ -55,7 +55,6 @@ $foreground-color: #E6FDFF;
 				
 				:hover{
 					cursor: pointer;
-					color: darken($foreground-color, 10%);
 					transform:scale(110%);
 				}	
 			
