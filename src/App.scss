@@ -137,6 +137,10 @@ $foreground-color: #E6FDFF;
 	
 	&-logo{
 		width: 170px;
+		
+		&:hover{
+			cursor: pointer;
+		}
 	}
 	
 	&-socials{		
@@ -147,7 +151,7 @@ $foreground-color: #E6FDFF;
 			margin: 0.5em;	
 			transition: transform .2s;
 			
-			&:hover{
+			:hover{
 				cursor: pointer;
 				transform:scale(110%);
 			}

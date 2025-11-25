@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+
+$background-color: #000000;
+$foreground-color: #E6FDFF;
+
+body{
+	background: $background-color;
+}
+
+.portfolio-section{
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/alextorodesigns.appspot.com/o/new-website%2FSection-Background.webp?alt=media&token=22afc625-c155-4dad-8eba-8bd48b7c327b");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+	justify-content: center;
+	
+	&-div{
+		margin-top: 5em;
+		margin-bottom: 5em;
+		
+		&-title{
+			color: $foreground-color;
+			
+			font-family: "Jersey 20", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 48px;
+			
+			text-align: center;
+		}
+		
+		&-wrapper{
+			
+			display: grid;
+			align-items: center;
+			justify-content: center;
+			grid-template-columns: repeat(3, 2fr);
+			grid-gap: 15px;
+			grid-auto-rows: minmax(100px, auto);
+			
+			&-item{
+				&-link{
+					&-img{
+						width: 20em;
+						margin: 0;
+						transition: transform .2s;
+						
+						&:hover{
+							transform:scale(105%);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.videos-section{
+	background: $background-color;
+	
+	&-div{
+		margin-top: 5em;
+		margin-bottom: 15em;
+		
+		&-title{
+			color: $foreground-color;
+			
+			font-family: "Jersey 20", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 48px;
+			
+			text-align: center;
+		}
+		
+		&-wrapper{
+			
+			display: grid;
+			align-items: center;
+			justify-content: center;
+			grid-template-columns: repeat(3, 2fr);
+			grid-gap: 15px;
+			grid-auto-rows: minmax(100px, auto);
+			
+			&-item{
+
+			}
+		}
+	}
+}

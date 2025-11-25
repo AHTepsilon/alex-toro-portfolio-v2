@@ -16,6 +16,7 @@ $foreground-color: #E6FDFF;
 	background: #000000;
 	margin: 0;
 	padding-top: 25px;
+	padding-bottom: 25px;
 	padding-right: 60px;
 	padding-left: 60px;
 	
@@ -59,9 +60,9 @@ $foreground-color: #E6FDFF;
 				
 				transition: font-size .2s;
 				
-				:hover{
+				&:hover{
 					cursor: pointer;
-					transform:scale(110%);
+					color:darken($foreground-color, 20%);
 				}	
 			
 			}
