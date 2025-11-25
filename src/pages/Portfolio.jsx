@@ -28,7 +28,10 @@ function Portfolio() {
 			<div className="videos-section-div">
 				<h2 className="videos-section-div-title">Videos</h2>
 				<div className="videos-section-div-wrapper">
-					
+					<div className="videos-section-div-wrapper-item">
+						<iframe className="videos-section-div-wrapper-item-ytvid" width="460" height="315" src="https://www.youtube.com/embed/US2-pEl088g?si=zaLNTyTtvTkMw7T7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<p className='videos-section-div-wrapper-item-p'>College project - A music video using kinetic typography - motion graphics made with <b>After Effects</b> - hand drawn visuals made with <b>FireAlpaca.</b></p>
+					</div>
 				</div>
 			</div>
 		</section>
