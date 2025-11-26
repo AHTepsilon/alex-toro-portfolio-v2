@@ -66,7 +66,7 @@ body{
 	
 	&-div{
 		margin-top: 5em;
-		margin-bottom: 15em;
+		margin-bottom: 5em;
 		
 		&-title{
 			color: $foreground-color;
@@ -89,7 +89,10 @@ body{
 			grid-auto-rows: minmax(100px, auto);
 			
 			&-item{
-				
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
 				margin: 5em;
 				
 				&-ytvid{
@@ -104,6 +107,152 @@ body{
 					font-style: normal;
 					font-size: 20px;
 					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+.print-section{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	&-div{
+		width: 75%;
+		margin-top: 5em;
+		margin-bottom: 5em;
+		
+		&-title{
+			color: $foreground-color;
+			
+			font-family: "Jersey 20", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 48px;
+			
+			text-align: center;
+		}
+		
+		&-item{
+			
+			border-color: $foreground-color;
+			border-width: 5px; 
+			
+			&-title{
+			color: $foreground-color;
+			
+			font-family: "Jersey 20", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 32px;
+			
+			text-align: center;
+			}
+			
+			&-wrapper{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				
+				&-title{
+				color: $foreground-color;
+				
+				font-family: "Jersey 20", sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				font-size: 24px;
+				
+				text-align: center;					
+				}
+				
+				&-group{
+					
+					display: grid;
+					align-items: center;
+					justify-content: center;
+					grid-template-columns: repeat(4, 2fr);
+					grid-gap: 15px;
+					grid-auto-rows: minmax(100px, auto);
+					
+					width: 50%;
+					
+					&-img{
+						height: 15em;
+						justify-self: center;
+					}
+				}
+			}
+			
+			&-wrapper2{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				
+				&-title{
+				color: $foreground-color;
+				
+				font-family: "Jersey 20", sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				font-size: 24px;
+				
+				text-align: center;					
+				}
+				
+				&-group{
+					
+					width: 50%;
+					
+					display: grid;
+					align-items: center;
+					justify-content: center;
+					grid-template-columns: repeat(2, 2fr);
+					grid-gap: 15px;
+					grid-auto-rows: minmax(40px, auto);
+					
+					&-img{
+						height: 15em;
+						justify-self: center;
+					}
+				}
+			}
+			&-wrapper3{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				
+				&-title{
+				color: $foreground-color;
+				
+				font-family: "Jersey 20", sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				font-size: 24px;
+				
+				text-align: center;					
+				}
+				
+				&-group{
+					
+					width: 50%;
+					
+					display: grid;
+					align-items: center;
+					justify-content: center;
+					grid-template-columns: repeat(1, 2fr);
+					grid-gap: 15px;
+					grid-auto-rows: minmax(40px, auto);
+					
+					&-img{
+						height: 15em;
+						justify-self: center;
+					}
 				}
 			}
 		}
