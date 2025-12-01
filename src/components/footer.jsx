@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './footer.scss';
+import './footer-media-queries.scss'
 import { NavLink } from "react-router";
 
 function Footer() {

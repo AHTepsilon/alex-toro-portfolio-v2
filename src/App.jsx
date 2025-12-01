@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.scss';
+import './App-media-queries.scss';
 import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
 import { NavLink } from "react-router";

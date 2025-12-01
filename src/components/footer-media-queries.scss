@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+
+$background-color: #000000;
+$foreground-color: #E6FDFF;
+
+@media all and (max-width: 1200px){
+
+}
+
+@media all and (max-width: 1090px){
+	
+	.footer-section{
+		&-divider{
+			width: 750px;		
+		}
+		
+		&-copyright{
+			
+		}
+		
+		&-logo{
+			
+		}
+		
+		&-socials{
+		
+			&-navlink{
+				
+			}
+		}
+	}
+}
