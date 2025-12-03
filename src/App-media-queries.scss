@@ -36,3 +36,31 @@ $foreground-color: #E6FDFF;
 		}
 	}
 }
+
+@media all and (max-width: 1090px){
+	.landing-section{
+		&-div{
+			&-img{
+				width:520px;
+			}
+			&-txt{
+				
+			}
+		}
+	}
+	
+	.about-section{
+		&-div{
+			&-title{
+				
+			}
+			&-p{
+				width: 600px;
+				font-size: 24px;
+			}
+			&-link{
+				
+			}
+		}
+	}
+}
