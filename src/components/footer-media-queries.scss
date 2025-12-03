@@ -79,3 +79,55 @@ $foreground-color: #E6FDFF;
 		}
 	}
 }
+
+@media all and (max-width: 370px){
+	
+	.footer-section{
+		
+		&-divider{
+			width: 250px;		
+		}
+		
+		&-copyright{
+			font-size: 20px;
+		}
+		
+		&-logo{
+			width: 100px;
+		}
+		
+		&-socials{
+		
+			&-navlink{
+				
+			}
+		}
+	}
+}
+
+@media all and (max-width: 310px){
+	
+	.footer-section{
+
+		padding-top: 50px;
+		
+		&-divider{
+		
+		}
+		
+		&-copyright{
+
+		}
+		
+		&-logo{
+	
+		}
+		
+		&-socials{
+		
+			&-navlink{
+				
+			}
+		}
+	}
+}
