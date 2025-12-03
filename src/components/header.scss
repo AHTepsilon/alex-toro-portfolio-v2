@@ -80,8 +80,34 @@ $foreground-color: #E6FDFF;
 					cursor: pointer;
 					transform:scale(110%);
 				}	
+			}
+
+            &-burger{
+				display: none;
+            }
+
+			&-burgerInner{
+                display: none;
+				margin: 1em;
+				overflow: hidden;
+                background-color: $foreground-color;
+                position: relative;
+
+				&-navlink{
+					padding: 0.5em;
+					color: $background-color;
+	
+					font-family: "Jersey 20", sans-serif;
+					font-weight: 400;
+					font-style: normal;
+					font-size: 24px;
+					
+					text-decoration: none;
+					
+					transition: font-size .2s;
+				}
+            }
 		}
-	}
 	
 }
 
