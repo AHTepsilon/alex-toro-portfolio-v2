@@ -31,3 +31,51 @@ $foreground-color: #E6FDFF;
 		}
 	}
 }
+
+@media all and (max-width: 750px){
+	
+	.footer-section{
+		&-divider{
+			width: 500px;		
+		}
+		
+		&-copyright{
+			
+		}
+		
+		&-logo{
+			
+		}
+		
+		&-socials{
+		
+			&-navlink{
+				
+			}
+		}
+	}
+}
+
+@media all and (max-width: 500px){
+	
+	.footer-section{
+		&-divider{
+			width: 300px;		
+		}
+		
+		&-copyright{
+			font-size: 24px;
+		}
+		
+		&-logo{
+			width: 100px;
+		}
+		
+		&-socials{
+		
+			&-navlink{
+				
+			}
+		}
+	}
+}

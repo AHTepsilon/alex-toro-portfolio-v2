@@ -37,7 +37,7 @@ $foreground-color: #E6FDFF;
 	}
 }
 
-@media all and (max-width: 1090px){
+@media all and (max-width: 805px){
 	.landing-section{
 		&-div{
 			&-img{
@@ -60,6 +60,98 @@ $foreground-color: #E6FDFF;
 			}
 			&-link{
 				
+			}
+		}
+	}
+}
+
+@media all and (max-width: 600px){
+	.landing-section{
+
+		&-div{
+			margin-top: 60px;
+			margin-bottom: 30px;
+			&-img{
+				width:420px;
+			}
+			&-txt{
+				margin-top: 20px;
+				font-size: 28px;
+			}
+		}
+	}
+	
+	.about-section{
+		&-div{
+			&-title{
+				
+			}
+			&-p{
+				width: 500px;
+				font-size: 24px;
+			}
+			&-link{
+				
+			}
+		}
+	}
+}
+
+@media all and (max-width: 541px){
+	.landing-section{
+
+		&-div{
+
+			&-img{
+				width: 350px;
+			}
+			&-txt{
+		
+			}
+		}
+	}
+	
+	.about-section{
+		&-div{
+			&-title{
+				
+			}
+			&-p{
+				width: 400px;
+				font-size: 24px;
+			}
+			&-link{
+				font-size: 32px;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 478px){
+	.landing-section{
+
+		&-div{
+
+			&-img{
+				width: 30	0px;
+			}
+			&-txt{
+		
+			}
+		}
+	}
+	
+	.about-section{
+		&-div{
+			&-title{
+				
+			}
+			&-p{
+				width: 300px;
+				font-size: 20px;
+			}
+			&-link{
+				font-size: 32px;
 			}
 		}
 	}
