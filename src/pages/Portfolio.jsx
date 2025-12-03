@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from '../components/header.jsx';
 import Footer from '../components/footer.jsx';
 import './portfolio.scss';
+import './portfolio-media-queries.scss';
 import { NavLink } from "react-router";
 
 function Portfolio() {
