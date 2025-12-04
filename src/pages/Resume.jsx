@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from '../components/header.jsx';
 import Footer from '../components/footer.jsx';
 import './resume.scss';
+import './resume-media-queries.scss';
 
 function Resume() {
 

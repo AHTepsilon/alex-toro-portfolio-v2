@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
+
+$background-color: #000000;
+$foreground-color: #E6FDFF;
+
+@media all and (max-width: 1010px){
+    .resume-section{
+        
+        &-div{
+
+            
+            &-title{
+
+            }
+            
+            &-item{
+                &-title{
+
+                }
+                
+                &-subtitle{
+            
+                }
+                
+                &-p{
+                    color: $foreground-color;
+                    
+                    font-family: "Glory", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-size: 24px;
+                    text-align: left;
+                    
+                    width: 750px;                
+                }
+            }
+        }
+    }
+
+    .education-section{
+        &-div{
+
+        }
+    }
+}
+
+@media all and (max-width: 780px){
+    .resume-section{
+        
+        &-div{
+
+            
+            &-title{
+
+            }
+            
+            &-item{
+                &-title{
+
+                }
+                
+                &-subtitle{
+                    width: 500px;  
+                }
+                
+                &-p{
+                    color: $foreground-color;
+                    
+                    font-family: "Glory", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-size: 24px;
+                    text-align: left;
+                    
+                    width: 500px;                
+                }
+            }
+        }
+    }
+
+    .education-section{
+        &-div{
+
+        }
+    }
+}
+
+@media all and (max-width: 551px){
+    .resume-section{
+        
+        &-div{
+
+            
+            &-title{
+
+            }
+            
+            &-item{
+                &-title{
+
+                }
+                
+                &-subtitle{
+                    width: 400px;  
+                }
+                
+                &-p{
+                    color: $foreground-color;
+                    
+                    font-family: "Glory", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-size: 24px;
+                    text-align: left;
+                    
+                    width: 400px;                
+                }
+            }
+        }
+    }
+
+    .education-section{
+        &-div{
+
+        }
+    }
+}
+
+@media all and (max-width: 450px){
+    .resume-section{
+        
+        &-div{
+
+            
+            &-title{
+
+            }
+            
+            &-item{
+                &-title{
+                    width: 300px;
+                }
+                
+                &-subtitle{
+                    width: 300px;  
+                }
+                
+                &-p{
+                    color: $foreground-color;
+                    
+                    font-family: "Glory", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-size: 20px;
+                    text-align: left;
+                    
+                    width: 300px;                
+                }
+            }
+        }
+    }
+
+    .education-section{
+        &-div{
+
+        }
+    }
+}
+
+@media all and (max-width: 323px){
+    .resume-section{
+        
+        &-div{
+
+            
+            &-title{
+                font-size: 32px;
+            }
+            
+            &-item{
+                &-title{
+                    width: 250px;
+                }
+                
+                &-subtitle{
+                    width: 250px;  
+                }
+                
+                &-p{
+                    color: $foreground-color;
+                    
+                    font-family: "Glory", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-size: 20px;
+                    text-align: left;
+                    
+                    width: 250px;                
+                }
+            }
+        }
+    }
+
+    .education-section{
+        &-div{
+
+        }
+    }
+}
+
+@media all and (max-width: 300px){
+    .resume-section{
+        
+        &-div{
+
+            
+            &-title{
+                font-size: 32px;
+            }
+            
+            &-item{
+                &-title{
+                    width: 220px;
+                }
+                
+                &-subtitle{
+                    width: 220px;  
+                }
+                
+                &-p{
+                    color: $foreground-color;
+                    
+                    font-family: "Glory", sans-serif;
+                    font-optical-sizing: auto;
+                    font-style: normal;
+                    font-size: 20px;
+                    text-align: left;
+                    
+                    width: 220px;                
+                }
+            }
+        }
+    }
+
+    .education-section{
+        &-div{
+
+        }
+    }
+}
