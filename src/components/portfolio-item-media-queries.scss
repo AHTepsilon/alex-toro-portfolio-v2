@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$background-color: #000000;
+$foreground-color: #E6FDFF;
+
+
+@media all and (max-width: 772px){
+		
+.portfolio-item-div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	width: 50%;
+
+	padding: 2em;
+	
+		&-inner{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		
+		&-img{
+			width: 10em;
+			height: 10em;
+			margin: 0.5em;
+			border: solid;
+			border-radius: 1em;
+			border-color: $foreground-color;
+		}
+		
+		&-textarea{
+			
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin: 0.5em;
+			
+			&-text{
+				text-align: center;
+				font-size: 18px;
+			}
+			
+			&-typeof{
+				text-align: center;
+				font-size: 14px;
+
+			}
+		}
+		
+	}
+	
+	}
+}

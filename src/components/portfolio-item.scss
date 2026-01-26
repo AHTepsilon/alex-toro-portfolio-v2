@@ -12,7 +12,7 @@ $foreground-color: #E6FDFF;
 	border-color: $foreground-color;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	text-decoration: none !important; 
 	
 	transition: transform .2s;

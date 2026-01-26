@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './portfolio-item.scss';
+import './portfolio-item-media-queries.scss';
 import './footer-media-queries.scss'
 import { NavLink } from "react-router";
 

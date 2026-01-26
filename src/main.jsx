@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio.jsx'
 import Resume from './pages/Resume.jsx'
 import Contact from './pages/Contact.jsx'
 import TRS from './pages/TRS-page.jsx'
+import Carvajal from './pages/Carvajal-page.jsx'
 
 import { BrowserRouter, Routes, Route } from "react-router";
 
@@ -19,7 +20,8 @@ ReactDOM.createRoot(root).render(
 	  <Route path="/portfolio" element={<Portfolio />} />
 	  <Route path="/resume" element={<Resume />} />
 	  <Route path="/contact" element={<Contact />} />
-	  <Route path="/TRS" element = {<TRS />} />
+	  <Route path="/portfolio/TRS" element = {<TRS />} />
+	  <Route path="/portfolio/Carvajal" element = {<Carvajal />} />
     </Routes>
   </BrowserRouter>,
 );
