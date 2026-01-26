@@ -3,6 +3,40 @@
 $background-color: #000000;
 $foreground-color: #E6FDFF;
 
-.portfolio-item-section{
-	
+.portfolio-item-div{
+	display: flex;
+	margin: 2em 4em; 
+	padding: 2em;
+	border: solid;
+	border-radius: 2em;
+	border-color: $foreground-color;
+	flex-direction: row;
+
+		&-inner{
+			
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		
+		&-img{
+			width: 15em;
+			height: 15em;
+			margin: 0.5em;
+			border: solid;
+			border-radius: 1em;
+			border-color: $foreground-color;
+		}
+		
+		&-text{
+			color: $foreground-color;
+			justify-text: center;
+			
+			font-family: "Glory", sans-serif;
+			font-size: 24px;
+			text-decoration: none;
+			
+			margin: 2em;
+		}	
+	}
 }
