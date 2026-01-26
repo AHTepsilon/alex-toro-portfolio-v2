@@ -6,6 +6,8 @@ import App from './App.jsx'
 import Portfolio from './pages/Portfolio.jsx'
 import Resume from './pages/Resume.jsx'
 import Contact from './pages/Contact.jsx'
+import TRS from './pages/TRS-page.jsx'
+
 import { BrowserRouter, Routes, Route } from "react-router";
 
 const root = document.getElementById("root");
@@ -17,6 +19,7 @@ ReactDOM.createRoot(root).render(
 	  <Route path="/portfolio" element={<Portfolio />} />
 	  <Route path="/resume" element={<Resume />} />
 	  <Route path="/contact" element={<Contact />} />
+	  <Route path="/TRS" element = {<TRS />} />
     </Routes>
   </BrowserRouter>,
 );
