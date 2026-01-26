@@ -3,13 +3,16 @@ import './portfolio-item.scss';
 import './footer-media-queries.scss'
 import { NavLink } from "react-router";
 
-function PortfolioItem({thumbnail, description, link}) {
+function PortfolioItem({thumbnail, description, link, section}) {
 
   return (
-	<NavLink className="portfolio-item-div" to={link} target="_blank">
+	<NavLink className="portfolio-item-div fade-in" to={link} target="_blank">
 		<div className="portfolio-item-div-inner">
 			<img className="portfolio-item-div-inner-img" src={thumbnail}></img>
-			<p className="portfolio-item-div-inner-text">{description}</p>
+			<div className="portfolio-item-div-inner-textarea">
+				<p className="portfolio-item-div-inner-textarea-text">{description}</p>
+				<p className="portfolio-item-div-inner-textarea-typeof">{section}</p>
+			</div>
 		</div>
 	</NavLink>
   )
